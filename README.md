@@ -1,1 +1,1 @@
-# koekt000.gihub.io
+[Open index.html](index.html)
