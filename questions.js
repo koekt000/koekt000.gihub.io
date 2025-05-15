@@ -4,7 +4,7 @@ let ege =  urlParams.get('ege');
 let count = 0
 console.log(ege)
 
-const baseUrl = "http://172.26.103.164:8000";
+const baseUrl = "http://95.165.90.137:8080";
 let sus = {};
 
 let max_c = 10
