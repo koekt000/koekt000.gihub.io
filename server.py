@@ -7,13 +7,13 @@ from sqlalchemy import Column, Integer, String
 from sqlalchemy import func
 import random as r
 
-DB_URL = "sqlite:///tasks4.db"
+DB_URL = "sqlite:///tasks5.db"
 engine = create_engine(DB_URL)
 Session = sessionmaker(bind=engine)
 
 Base = declarative_base()
 class Task(Base):
-        __tablename__ = "task4"
+        __tablename__ = "task5"
         id = Column(Integer, primary_key=True, autoincrement=True)
         number =  Column(Integer)
         task = Column(String)
